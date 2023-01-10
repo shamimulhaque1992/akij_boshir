@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
+ 
 }
 .dropdown-hover:hover > .dropdown-menu {
   display: inline-block;
@@ -87,7 +87,15 @@ a {
   object-fit: fill;
   height: 100vh;
   background-position: center center;
-  opacity: 0.5;
+  opacity: 0.8;
+}
+.sustaincontainer p{
+color: #000;
+font-weight: bold;
+}
+.sustaincontainer h1{
+color: #ffffff;
+font-weight: bold;
 }
 .sustext {
   background-color: #043a5b;
