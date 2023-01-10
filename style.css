@@ -86,6 +86,13 @@ a {
   font-size: 1rem;
 }
 
+.sustainability{
+  background-image: url("./assets/images/85bad6dc-dc9b-49a5-bfed-16853af1ba26.png");
+  background-repeat: no-repeat;
+  object-fit: fill;
+  height: 100vh;
+  background-position: center center;
+}
 
 @media screen and (min-width: 375px) and (max-width: 1000px) {
   .topNav {
