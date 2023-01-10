@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dropdown-hover:hover > .dropdown-menu {
+  display: inline-block;
+}
+
+.dropdown-hover > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+main {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #fff;
+}
+header {
+  margin-top: 1rem;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  column-gap: 1rem;
+}
+.topMenu p {
+  margin-top: 1rem;
+}
+.topMenu button {
+  border: none;
+  background-color: transparent;
+  border: 1px solid rgb(160, 157, 157);
+  padding: 0.5rem;
+  border-radius: 50px;
+  font-weight: 200;
+  font-size: 14px;
+  color: #fff;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: #fff;
+}
+.list {
+  column-gap: 1rem;
+  width: 100%;
+}
+.showcase h1 {
+  font-size: 6rem;
+}
+.showcase p {
+  font-size: 1.9rem;
+}
+.box {
+  display: flex;
+  column-gap: 2rem;
+}
+.box1 {
+  background-color: rgb(253, 253, 253);
+  padding: 1rem;
+  width: 20%;
+  color: #000;
+  height: 150px;
+}
+.box1 p {
+  font-size: 1rem;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 1000px) {
+  .topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
